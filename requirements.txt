@@ -2,6 +2,6 @@ django~=4.1.5
 djangorestframework~=3.14.0
 drf_yasg
 drf-spectacular
-
-
+psycopg2
+PyJWT~=1.6.4
 six

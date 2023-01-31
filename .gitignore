@@ -2,3 +2,9 @@ env
 Ginterest/__pycache__
 .idea
 gin/__pycache__/
+
+authentication/__pycache__/
+
+gin/migrations/__pycache__/
+
+authentication/migrations/__pycache__/
