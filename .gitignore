@@ -8,3 +8,9 @@ authentication/__pycache__/
 gin/migrations/__pycache__/
 
 authentication/migrations/__pycache__/
+
+comments/__pycache__/
+
+comments/migrations/__pycache__/
+
+.DS_Store

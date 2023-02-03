@@ -9,4 +9,4 @@ class GinSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Gin
-        fields = ('gin_id', 'gin_description', 'gin_created_at')
+        fields = ('id', 'description', 'created_at', 'author')
