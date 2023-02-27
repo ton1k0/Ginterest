@@ -15,6 +15,7 @@ class Gin(models.Model):
     def __str__(self):
         return self.id
 
+
     class Meta:
         verbose_name = 'Джины'
         verbose_name_plural = 'Джины'
