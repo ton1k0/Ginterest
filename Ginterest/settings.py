@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'gin',
     'authentication',
     'comments',
+    'profiles',
 ]
 
 AUTH_USER_MODEL = 'authentication.User'

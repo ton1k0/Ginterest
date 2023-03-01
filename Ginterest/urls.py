@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('gin/', include('gin.urls')),
     path('api/', include('authentication.urls', namespace='authentication')),
-    path('comments/', include('comments.urls'))
+    path('comments/', include('comments.urls')),
+    path('profile/', include('profiles.urls')),
 ]
