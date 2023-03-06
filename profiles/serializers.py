@@ -9,3 +9,9 @@ class ProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profile
         fields = ('user', 'first_name', 'surname', 'about', 'website', 'username')
+
+
+class ProfileViewSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ('first_name', 'surname', 'about', 'website')
