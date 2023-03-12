@@ -19,3 +19,9 @@ class Gin(models.Model):
     class Meta:
         verbose_name = 'Джины'
         verbose_name_plural = 'Джины'
+
+
+class GinSave(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    gin = models.ForeignKey(Gin, on_delete=models.CASCADE)
+
